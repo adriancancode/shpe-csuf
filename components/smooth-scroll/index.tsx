@@ -1,0 +1,7 @@
+export { ParallaxText } from "./parallax-text"
+export { ScrollReveal } from "./scroll-reveal"
+export { FloatingText } from "./floating-text"
+export { MagneticButton } from "./magnetic-button"
+export { StaggerText } from "./stagger-text"
+export { ScrollProgress } from "./scroll-progress"
+export { HorizontalScroll } from "./horizontal-scroll" 
