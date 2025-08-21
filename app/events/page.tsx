@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
-import EventsSection from "@/components/eventsSection"
+import Calendar from "@/components/Calendar"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -63,7 +63,7 @@ export default function EventsPage() {
             <p className="text-xl text-gray-600">Diverse opportunities for every stage of your career</p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 md:mx-20 lg:mx-10 lg:grid-cols-4 gap-8">
             {eventTypes.map((eventType, index) => (
               <Card key={index} className="text-center border-0 shadow-lg hover:shadow-xl transition-shadow">
                 <CardHeader>
@@ -87,9 +87,11 @@ export default function EventsPage() {
       </section>
 
       {/* Events Section */}
-      <EventsSection/>
-
-      {/* Host an Event */}
+      <Calendar/>
+      
+      {/* Not sure if I should keep this section for sponsors/guests who want to host an event with us or delete it */}
+      
+      {/* Host an Event
       <section className="py-20 bg-teal-900 text-white">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -132,7 +134,7 @@ export default function EventsPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <Footer />
     </div>
