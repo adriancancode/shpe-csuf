@@ -78,7 +78,7 @@ export default function Header({ variant = 'page' }: HeaderProps) {
       </Sheet>
 
       {/* Join Now Button */}
-      <a href="https://discord.gg/cXNeAGzy" target="_blank" rel="noopener noreferrer">
+      <a href="https://discord.gg/5JS5TvMvgW" target="_blank" rel="noopener noreferrer">
         <Button 
           variant={isHero ? "outline" : "default"}
           className={`hidden md:inline-flex ${
