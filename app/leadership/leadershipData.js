@@ -36,10 +36,10 @@ const leadership = [
       bio: "Mechanical Engineering Junior"
     },
     {
-      name: "Emmanuel Barriga",
+      name: "Vacant",
       role: "Co-Director of Events  |  SHPE",
       image: "/placeholder-user.jpg",
-      bio: "Civil Engineering Senior"
+      bio: "Vacant"
     },
     {
       name: "Adrian Vazquez",
