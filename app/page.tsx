@@ -132,7 +132,7 @@ export default function SHPELanding() {
 
           <ScrollReveal direction="up" delay={1.0}>
             <div className="mt-12 flex flex-col sm:flex-row gap-4">
-              <a href="https://discord.gg/cXNeAGzy" target="_blank" rel="noopener noreferrer">
+              <a href="https://discord.gg/5JS5TvMvgW" target="_blank" rel="noopener noreferrer">
                 <MagneticButton className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
                   Join Now!
                 </MagneticButton>
@@ -353,7 +353,7 @@ export default function SHPELanding() {
                   Our sister chapter acts as a support group for SHPE members, providing mentorship, mindful practices, and 
                   a community that intends to uplift underrepresented groups in STEM.
                 </p>
-                <a href="https://discord.gg/aTKeebky" target="_blank" rel="noopener noreferrer">
+                <a href="https://discord.gg/mjnHZaeUwn" target="_blank" rel="noopener noreferrer">
                   <MagneticButton className="bg-pink-500 hover:bg-pink-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
                     Join SHPEtinas!
                   </MagneticButton>
