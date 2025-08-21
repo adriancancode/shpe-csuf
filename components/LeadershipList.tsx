@@ -11,12 +11,13 @@ export default function LeadershipList() {
               <ScrollReveal key={index} direction="up" delay={index * 0.1}>
                 <Card className="text-center border-0 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group">
                   <CardHeader>
-                    <Avatar className="w-24 h-24 mx-auto mb-4 transition-transform group-hover:scale-110">
+                    <Avatar className="w-52 h-52 mx-auto mb-4 transition-transform group-hover:scale-110">
                       <AvatarImage src={leader.image} alt={leader.name} />
                       <AvatarFallback>{leader.name.split(' ').map(n => n[0]).join('')}</AvatarFallback>
                     </Avatar>
                     <CardTitle className="text-xl">{leader.name}</CardTitle>
-                    <Badge variant="secondary" className="bg-teal-100 text-teal-800">
+                    <Badge variant="secondary" className={`${leader.board === "SHPE" ? 'bg-teal-100 text-teal-800' 
+                      : 'bg-pink-100 text-pink-800'}`}>
                       {leader.role}
                     </Badge>
                   </CardHeader>
