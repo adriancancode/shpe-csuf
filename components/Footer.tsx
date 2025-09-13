@@ -48,7 +48,7 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Resources</h4>
             <ul className="space-y-2 text-gray-400">
               <li><Link href="https://github.com/adriancancode/shpe-csuf" target="_blank" className="hover:text-white transition-colors">Source Code</Link></li>
-              <li><Link href="#" className="hover:text-white transition-colors">Career Center</Link></li>
+              <li><Link href="https://www.fullerton.edu/career/" className="hover:text-white transition-colors">Career Center</Link></li>
               <li><Link href="#" className="hover:text-white transition-colors">Mentorship</Link></li>
               <li><Link href="#" className="hover:text-white transition-colors">Newsletter</Link></li>
             </ul>
