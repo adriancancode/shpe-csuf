@@ -73,7 +73,7 @@ const leadership = [
       name: "Cristal Santos",
       role: "Secretary  |  SHPEtinas",
       image: "/headshots/cristal-santos.jpg",
-      bio: "Computer Science Senior",
+      bio: "Electrical Engineering Senior",
       board: "SHPEtinas"
     },
     {
