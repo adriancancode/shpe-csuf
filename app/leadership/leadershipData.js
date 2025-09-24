@@ -10,7 +10,7 @@ const leadership = [
       name: "Jeffery Camacho-Osorio",
       role: "Internal Vice President  |  SHPE",
       image: "/headshots/jeff-camacho.jpg",
-      bio: "Mechanical Engineering Senior",
+      bio: "Electrical Engineering Senior",
       board: "SHPE"
     },
     {
