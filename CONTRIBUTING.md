@@ -27,6 +27,8 @@ To start the development server, type `npm run dev` and navigate to [`http://loc
    - **Reminder**: Focus **ONLY** on the areas of the source code that you intend to change
 4. Once you are satisfied with your code changes, commit and push your changes through your branch with `git push origin {branch-name}`.
 
+**Note**: Before making new branches and changes, do `git pull` on the main branch to retrieve the latest version of the site's source code.
+
 ## Pull Requests
 **Note**: Before merging any changes, let the team know ahead of time so that in cases that you and another person are working on the same areas, you can reduce the chances of a merge conflict (Trust me, we all don't wanna deal with those).
 1. Once you push your changes to your branch and you are ready to merge your changes to the master branch, head to the main repository and click Pull Requests → New pull request.
@@ -35,9 +37,9 @@ To start the development server, type `npm run dev` and navigate to [`http://loc
    ii. A clear description of what files/components you changed and how
    iii. If applicable, any link(s) to the issue/s that was resolved.
    iv. Any screenshots so that the reviewer(s) and team can understand where in the website you made your change.
-3. Once you have all the necessary information as listed above, click "Merge Pull Request".
-4. If you are done merging everything from your branch, you can delete your branch by clicking "Delete Branch".
-5. 
+3. Once you have all the necessary information as listed above, contact me on Discord (adrian046196) so I can review your PR.
+4. Once I finish reviewing your PR and approve it, click "Merge Pull Request".
+5. If you are done working on and merging code from your branch, you can delete your branch by clicking "Delete Branch".
 
 ## Issues
 If you have any ideas on what you would like to add to the site or detect any bugs/errors, go to Issues → New Issue.
