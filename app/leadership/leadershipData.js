@@ -38,7 +38,7 @@ const leadership = [
       name: "Estrella Rivera",
       role: "Director of Events  |  SHPE",
       image: "/headshots/estrella-rivera.jpg",
-      bio: "Mechanical Engineering Junior",
+      bio: "Civil Engineering Senior",
       board: "SHPE"
     },
     {
