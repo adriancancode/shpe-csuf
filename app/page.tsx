@@ -7,10 +7,11 @@ import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext } from "@/components/ui/carousel"
 import { Badge } from "@/components/ui/badge"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { AnimatedCounter } from "@/components/ui/animated-counter"
-import { CalendarDays, Users, Trophy, MapPin, Clock, School, Briefcase } from "lucide-react"
+import { CalendarDays, Users, Trophy, MapPin, Clock, School, Briefcase, Car } from "lucide-react"
 import { 
   ParallaxText, 
   ScrollReveal, 
@@ -140,6 +141,38 @@ export default function SHPELanding() {
               
             </div>
           </ScrollReveal>
+          <ScrollReveal direction="up" delay={1.2}>
+            <p className="mt-4 text-sm text-white/80 italic">
+              Click "Join Now!" to become a member and get access to our events, programs, and exclusive resources!
+            </p>
+          </ScrollReveal>
+          <ScrollReveal direction="up" delay={1.4}>
+            <Carousel orientation="horizontal" className="mt-20">
+              <CarouselPrevious />
+              <CarouselContent>
+                <CarouselItem>
+                  <Image
+                  src="/pictures/IMG_2758.JPG"
+                  alt="SHPE Community"
+                  width={600}
+                  height={400}
+                  className="rounded-lg shadow-lg"
+                  />
+                </CarouselItem>
+                <CarouselItem>
+                  <Image
+                  src="/pictures/IMG_8130.JPG"
+                  alt="SHPE Event"
+                  width={600}
+                  height={400}
+                  className="rounded-lg shadow-lg"
+                  />
+                </CarouselItem>
+              </CarouselContent>
+              
+              <CarouselNext />
+            </Carousel>
+          </ScrollReveal>
         </div>
 
         {/* Background Elements */}
@@ -189,7 +222,7 @@ export default function SHPELanding() {
               <div className="relative">
                 <ParallaxText speed={0.2}>
                   <Image 
-                    src="/placeholder.png"
+                    src="/pictures/IMG_2758.JPG"
                     alt="SHPE Community" 
                     width={500} 
                     height={400} 

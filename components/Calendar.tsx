@@ -132,8 +132,8 @@ const Calendar = () => {
   const [filter, setFilter] = useState('all')
 
   // Google Calendar API configuration
-  const CALENDAR_ID = process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_ID
-  const API_KEY = process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_API_KEY
+  const CALENDAR_ID = process.env.TEST_GOOGLE_CALENDAR_ID
+  const API_KEY = process.env.TEST_GOOGLE_CALENDAR_API_KEY
 
   useEffect(() => {
     const loadEvents = async () => {
