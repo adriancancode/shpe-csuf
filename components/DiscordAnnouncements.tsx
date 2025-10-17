@@ -95,7 +95,7 @@ export default function DiscordAnnouncements() {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      {announcements.slice(0, 6).map((announcement) => (
+      {announcements.slice(0, 3).map((announcement) => (
         <Card 
           key={announcement.id} 
           className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"

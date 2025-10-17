@@ -1,15 +1,18 @@
 import { NextResponse } from 'next/server';
 
-const DISCORD_BOT_TOKEN = process.env.DISCORD_BOT_TOKEN;
+const BOT_TOKEN = process.env.DISCORD_BOT_TOKEN;
 const EVENTS_CHANNEL_ID = process.env.DISCORD_EVENTS_CHANNEL_ID;
 
 export async function GET() {
+  console.log('API Route called');
+  console.log('Bot Token exists:', !!BOT_TOKEN);
+  console.log('Channel ID:', EVENTS_CHANNEL_ID);
   try {
     const response = await fetch(
       `https://discord.com/api/v10/channels/${EVENTS_CHANNEL_ID}/messages?limit=10`,
       {
         headers: {
-          Authorization: `Bot ${DISCORD_BOT_TOKEN}`,
+          Authorization: `Bot ${BOT_TOKEN}`,
         },
         next: { revalidate: 300 }
       }
