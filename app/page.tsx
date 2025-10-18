@@ -5,6 +5,7 @@ import Image from "next/image"
 import Link from "next/link"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
+import DiscordAnnouncements from "@/components/DiscordAnnouncements"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -445,6 +446,9 @@ export default function SHPELanding() {
                 <p className="text-xl text-gray-600">Join us for networking, learning, and professional growth</p>
               </ScrollReveal>
             </div>
+          </ScrollReveal>
+          <ScrollReveal direction="up">
+              <DiscordAnnouncements/>
           </ScrollReveal>
           
           <div className='relative'>
