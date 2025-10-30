@@ -190,7 +190,7 @@ export default function SHPELanding() {
               <div className="relative">
                 <ParallaxText speed={0.2}>
                   <Image 
-                    src="/placeholder.png"
+                    src="/pictures/IMG_2729.JPG"
                     alt="SHPE Community" 
                     width={500} 
                     height={400} 

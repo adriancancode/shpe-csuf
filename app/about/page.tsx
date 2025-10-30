@@ -71,7 +71,7 @@ export default function AboutPage() {
 
             <div className="relative">
               <Image 
-                src="/placeholder.jpg" 
+                src="/pictures/IMG_2758.JPG" 
                 alt="SHPE Mission" 
                 width={600} 
                 height={400} 
@@ -158,7 +158,7 @@ export default function AboutPage() {
 
             <div className="relative">
               <Image 
-                src="/placeholder.jpg" 
+                src="/pictures/IMG_7597.JPG" 
                 alt="CSUF Campus" 
                 width={600} 
                 height={400} 
