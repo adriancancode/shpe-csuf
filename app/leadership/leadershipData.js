@@ -16,15 +16,15 @@ const leadership = [
     {
       name: "Ruben Marquez",
       role: "External Vice President  |  SHPE",
-      image: "/placeholder-user.jpg",
+      image: "/headshots/ruben-marquez.jpg",
       bio: "Computer Engineering Sophomore",
       board: "SHPE"
     },
     {
-      name: "Ian Nguyen",
+      name: "Vacant",
       role: "Secretary  |  SHPE",
-      image: "/headshots/ian-nguyen.jpg",
-      bio: "Civil Engineering Senior",
+      image: "/placeholder-user.jpg",
+      bio: "Vacant",
       board: "SHPE"
     },
     {
@@ -38,14 +38,21 @@ const leadership = [
       name: "Estrella Rivera",
       role: "Director of Events  |  SHPE",
       image: "/headshots/estrella-rivera.jpg",
-      bio: "Mechanical Engineering Junior",
+      bio: "Civil Engineering Senior",
       board: "SHPE"
     },
     {
-      name: "Vacant",
+      name: "Salvador Diaz",
+      role: "Co-Director of Events  |  SHPE",
+      image: "/headshots/salvador-diaz.jpg",
+      bio: "Electrical Engineering Senior",
+      board: "SHPE"
+    },
+    {
+      name: "Joseph Arrizon",
       role: "Co-Director of Events  |  SHPE",
       image: "/placeholder-user.jpg",
-      bio: "Vacant",
+      bio: "Electrical Engineering Senior",
       board: "SHPE"
     },
     {
@@ -73,7 +80,7 @@ const leadership = [
       name: "Cristal Santos",
       role: "Secretary  |  SHPEtinas",
       image: "/headshots/cristal-santos.jpg",
-      bio: "Computer Science Senior",
+      bio: "Electrical Engineering Senior",
       board: "SHPEtinas"
     },
     {
@@ -87,7 +94,7 @@ const leadership = [
       name: "Daisy Martinez",
       role: "Historian/Public Relations  |  SHPEtinas",
       image: "/headshots/daisy-martinez.jpg",
-      bio: "Computer Science Senior",
+      bio: "Computer Science Sophomore",
       board: "SHPEtinas"
     },
     
