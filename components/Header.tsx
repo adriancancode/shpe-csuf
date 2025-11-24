@@ -17,7 +17,8 @@ export default function Header({ variant = 'page' }: HeaderProps) {
     { href: "/about", label: "About" },
     
     { href: "/events", label: "Events" },
-    { href: "/leadership", label: "Leadership" }
+    { href: "/leadership", label: "Leadership" },
+    { href: "/alumni", label: "Alumni" }
   ]
 
   const isHero = variant === 'hero'
