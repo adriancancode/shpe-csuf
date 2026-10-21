@@ -12,13 +12,13 @@ import { Badge } from "@/components/ui/badge"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { AnimatedCounter } from "@/components/ui/animated-counter"
 import { CalendarDays, Users, Trophy, MapPin, Clock, School, Briefcase } from "lucide-react"
-import { 
-  ParallaxText, 
-  ScrollReveal, 
-  FloatingText, 
-  MagneticButton, 
-  StaggerText, 
-  ScrollProgress, 
+import {
+  ParallaxText,
+  ScrollReveal,
+  FloatingText,
+  MagneticButton,
+  StaggerText,
+  ScrollProgress,
 } from "@/components/smooth-scroll"
 import leadership from "@/app/leadership/leadershipData" // Assuming you have a leadership data file
 
@@ -63,15 +63,15 @@ export default function SHPELanding() {
   ]
 
   const firstThreeLeadership = leadership.slice(0, 3);
-  
+
   return (
     <div className="min-h-screen">
       <ScrollProgress />
-      
+
       {/* Floating Background Text */}
       <FloatingText text="ENGINEERING • EXCELLENCE • COMMUNITY •" className="fixed top-1/4 z-0 text-black/80" speed={0.5} />
       <FloatingText text="• INNOVATION • LEADERSHIP • DIVERSITY" className="fixed top-3/4 z-0 text-black/80" speed={0.8} reverse />
-      
+
       {/* Hero Section */}
       <section className="min-h-screen bg-gradient-to-br from-teal-600 to-teal-800 text-white relative overflow-hidden">
         {/* Navigation */}
@@ -124,7 +124,7 @@ export default function SHPELanding() {
           <ScrollReveal direction="up" delay={0.8}>
             <div className="mt-8 text-center max-w-2xl">
               <p className="text-lg text-white/90 leading-relaxed">
-                Empowering Hispanic engineers and scientists at California State University, Fullerton to achieve their full potential 
+                Empowering Hispanic engineers and scientists at California State University, Fullerton to achieve their full potential
                 while contributing to a diverse and inclusive STEM workforce in Orange County and beyond
               </p>
             </div>
@@ -137,8 +137,8 @@ export default function SHPELanding() {
                   Join Now!
                 </MagneticButton>
               </a>
-              
-              
+
+
             </div>
           </ScrollReveal>
         </div>
@@ -154,12 +154,12 @@ export default function SHPELanding() {
 
       {/* About Section */}
       <section id="about" className="py-20 bg-white relative overflow-hidden">
-        
+
         <div className="container mx-auto px-6 relative z-10">
           <ScrollReveal direction="up">
             <div className="text-center mb-16">
-              <StaggerText 
-                text="About SHPE" 
+              <StaggerText
+                text="About SHPE"
                 className="text-4xl font-bold text-gray-900 mb-4 justify-center"
               />
               <ScrollReveal direction="up" delay={0.3}>
@@ -170,18 +170,18 @@ export default function SHPELanding() {
               </ScrollReveal>
             </div>
           </ScrollReveal>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <ScrollReveal direction="left" delay={0.2}>
               <div>
                 <h3 className="text-2xl font-semibold mb-6">Our Mission</h3>
                 <p className="text-gray-700 mb-6">
-                  SHPE changes lives by empowering the Hispanic community to realize their fullest potential and to impact 
+                  SHPE changes lives by empowering the Hispanic community to realize their fullest potential and to impact
                   the world through STEM awareness, access, support and professional development.
                 </p>
                 <h3 className="text-2xl font-semibold mb-6">Our Vision</h3>
                 <p className="text-gray-700">
-                  SHPE's vision is a world where Hispanics are highly valued and influential as the leading innovators, 
+                  SHPE's vision is a world where Hispanics are highly valued and influential as the leading innovators,
                   scientists, mathematicians and engineers.
                 </p>
               </div>
@@ -189,11 +189,11 @@ export default function SHPELanding() {
             <ScrollReveal direction="right" delay={0.4}>
               <div className="relative">
                 <ParallaxText speed={0.2}>
-                  <Image 
+                  <Image
                     src="/pictures/IMG_2729.JPG"
-                    alt="SHPE Community" 
-                    width={500} 
-                    height={400} 
+                    alt="SHPE Community"
+                    width={500}
+                    height={400}
                     className="rounded-lg shadow-lg"
                   />
                 </ParallaxText>
@@ -212,7 +212,7 @@ export default function SHPELanding() {
               Located in the heart of Orange County, our CSUF chapter connects students with the thriving tech and engineering industries
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="bg-white/10 backdrop-blur-sm border-0 text-white">
               <CardHeader className="text-center">
@@ -261,12 +261,12 @@ export default function SHPELanding() {
 
       {/* Statistics Section */}
       <section className="py-20 bg-teal-50 relative overflow-hidden">
-        
+
         <div className="container mx-auto px-6 relative z-10">
           <ScrollReveal direction="up">
             <div className="text-center mb-16">
-              <StaggerText 
-                text="Our Impact" 
+              <StaggerText
+                text="Our Impact"
                 className="text-4xl font-bold text-gray-900 mb-4 justify-center"
               />
               <ScrollReveal direction="up" delay={0.3}>
@@ -274,14 +274,14 @@ export default function SHPELanding() {
               </ScrollReveal>
             </div>
           </ScrollReveal>
-          
+
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
               <ScrollReveal key={index} direction="up" delay={index * 0.1}>
                 <div className="text-center group">
                   <div className="text-4xl md:text-5xl font-bold text-teal-600 mb-2 transform transition-transform group-hover:scale-110">
-                    <AnimatedCounter 
-                      end={stat.number} 
+                    <AnimatedCounter
+                      end={stat.number}
                       duration={2500}
                       suffix={stat.suffix}
                     />
@@ -299,8 +299,8 @@ export default function SHPELanding() {
         <div className="container mx-auto px-6 relative z-10">
           <ScrollReveal direction="up">
             <div className="text-center mb-16">
-              <StaggerText 
-                text="Our Programs" 
+              <StaggerText
+                text="Our Programs"
                 className="text-4xl font-bold text-gray-900 mb-4 justify-center"
               />
               <ScrollReveal direction="up" delay={0.3}>
@@ -308,7 +308,7 @@ export default function SHPELanding() {
               </ScrollReveal>
             </div>
           </ScrollReveal>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {programs.map((program, index) => (
               <ScrollReveal key={index} direction="up" delay={index * 0.2} className="h-full">
@@ -336,8 +336,8 @@ export default function SHPELanding() {
         <div className="container mx-auto px-6 relative z-10">
           <ScrollReveal direction="up">
             <div className="text-center mb-16">
-              <StaggerText 
-                text="SHPEtinas" 
+              <StaggerText
+                text="SHPEtinas"
                 className="text-4xl font-bold text-gray-900 mb-4 justify-center"
               />
               <ScrollReveal direction="up" delay={0.3}>
@@ -350,7 +350,7 @@ export default function SHPELanding() {
               <div>
                 <h3 className="text-2xl font-semibold mb-6">About</h3>
                 <p className="text-gray-700 mb-6">
-                  Our sister chapter acts as a support group for SHPE members, providing mentorship, mindful practices, and 
+                  Our sister chapter acts as a support group for SHPE members, providing mentorship, mindful practices, and
                   a community that intends to uplift underrepresented groups in STEM.
                 </p>
                 <a href="https://discord.gg/mjnHZaeUwn" target="_blank" rel="noopener noreferrer">
@@ -363,11 +363,11 @@ export default function SHPELanding() {
             <ScrollReveal direction="left" delay={0.4}>
               <div className="relative">
                 <ParallaxText speed={0.2}>
-                  <Image 
+                  <Image
                     src="/shpetinas-logo.png"
-                    alt="SHPEtinas Logo with tagline 'Igniting Latinas in STEM'" 
-                    width={500} 
-                    height={400} 
+                    alt="SHPEtinas Logo with tagline 'Igniting Latinas in STEM'"
+                    width={500}
+                    height={400}
                     className="rounded-lg shadow-lg"
                   />
                 </ParallaxText>
@@ -382,12 +382,12 @@ export default function SHPELanding() {
         <ParallaxText speed={0.1} className="absolute inset-0 opacity-5">
           <FloatingText text="LEADERSHIP • EXCELLENCE • DEDICATION •" />
         </ParallaxText>
-        
+
         <div className="container mx-auto px-6 relative z-10">
           <ScrollReveal direction="up">
             <div className="text-center mb-16">
-              <StaggerText 
-                text="Leadership Team" 
+              <StaggerText
+                text="Leadership Team"
                 className="text-4xl font-bold text-gray-900 mb-4 justify-center"
               />
               <ScrollReveal direction="up" delay={0.3}>
@@ -395,15 +395,23 @@ export default function SHPELanding() {
               </ScrollReveal>
             </div>
           </ScrollReveal>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {firstThreeLeadership.map((leader, index) => (
               <ScrollReveal key={index} direction="up" delay={index * 0.1}>
                 <Card className="text-center border-0 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group">
                   <CardHeader>
-                    <Avatar className="w-52 h-52 mx-auto mb-4 transition-transform group-hover:scale-110">
-                      <AvatarImage src={leader.image} alt={leader.name} />
-                      <AvatarFallback>{leader.name.split(' ').map(n => n[0]).join('')}</AvatarFallback>
+                    <Avatar className="w-52 h-52 mx-auto mb-4 rounded-2xl overflow-hidden transition-transform group-hover:scale-105">
+                      <AvatarImage
+                        src={leader.image}
+                        alt={leader.name}
+                        className={`w-full h-full object-cover object-center ${
+                          leader.name === "Juan Rodriguez" ? "scale-125" : ""
+                        }`}
+                      />
+                      <AvatarFallback className="w-full h-full rounded-2xl bg-gray-100 flex items-center justify-center">
+                        <Users className="w-16 h-16 text-gray-400" />
+                      </AvatarFallback>
                     </Avatar>
                     <CardTitle className="text-xl">{leader.name}</CardTitle>
                     <Badge variant="secondary" className="bg-teal-100 text-teal-800">
@@ -434,12 +442,12 @@ export default function SHPELanding() {
       {/* Events Section */}
       <section id="events" className="py-20 bg-white relative overflow-hidden">
         <FloatingText text="EVENTS • NETWORKING • GROWTH •" className="absolute bottom-10 opacity-5" speed={0.4} reverse />
-        
+
         <div className="container mx-auto px-6 relative z-10">
           <ScrollReveal direction="up">
             <div className="text-center mb-16">
-              <StaggerText 
-                text="Upcoming Events" 
+              <StaggerText
+                text="Upcoming Events"
                 className="text-4xl font-bold text-gray-900 mb-4 justify-center"
               />
               <ScrollReveal direction="up" delay={0.3}>
@@ -450,7 +458,7 @@ export default function SHPELanding() {
           <ScrollReveal direction="up">
               <DiscordAnnouncements/>
           </ScrollReveal>
-          
+
           <div className='relative'>
             <ScrollReveal direction="up" delay={0.5}>
               <div className="text-center mt-12">
@@ -471,7 +479,7 @@ export default function SHPELanding() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-4">Frequently Asked Questions</h2>
           </div>
-          
+
           <div className="max-w-3xl mx-auto space-y-8">
             <Card className="border-0 shadow-xl transition-all duration-300 transform hover:-translate-y-2">
               <CardHeader>
@@ -479,7 +487,7 @@ export default function SHPELanding() {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-gray-700">
-                  No! SHPE welcomes anyone who supports our mission of empowering Hispanic professionals in STEM. 
+                  No! SHPE welcomes anyone who supports our mission of empowering Hispanic professionals in STEM.
                   We believe diversity of thought and background strengthens our community.
                 </CardDescription>
               </CardContent>
@@ -503,7 +511,7 @@ export default function SHPELanding() {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-gray-700">
-                  SHPE supports career transitions and welcomes individuals exploring STEM fields. 
+                  SHPE supports career transitions and welcomes individuals exploring STEM fields.
                   Our programs can help you navigate your path into STEM careers.
                 </CardDescription>
               </CardContent>
