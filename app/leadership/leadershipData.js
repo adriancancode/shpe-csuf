@@ -37,7 +37,15 @@ const leadership = [
     board: "SHPE",
   },
   vacant("Treasurer"),
-  vacant("Director of Events"),
+
+  {
+    name: "Jesse Figueroa Reyna",
+    role: "Director of Events  |  SHPE",
+    image: "/headshots/IMG_4897.jpg",
+    bio: "Mechanical Engineering Senior",
+    board: "SHPE",
+  },
+
   vacant("Co-Director of Events"),
   vacant("Co-Director of Events"),
   {
